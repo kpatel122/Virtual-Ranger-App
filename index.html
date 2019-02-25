@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="/manifest.json">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Virtual Ranger</title>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container-fluid">
+    <div class="inner-container row">
+    <h1>Is there a person in this photo?</h1>
+    <div class="row question-container">
+      <div class="col-xs-7 col-md-5">
+        <img src="">
+      </div>
+      <div class="col-xs-5 col-md-7 answers">
+        <div class="row">
+        <div class="answer answer-top col-xs-12 col-md-6">
+          <button class="tick" id="tick-button"></button>
+        </div>
+        <div class="answer answer-bottom col-xs-12 col-md-6">
+          <button class="cross" onclick="buttonpressed" id="cross-button"></button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row menu">
+      <div class="col-xs-4">
+        <img src="img/icon.png" />
+      </div>
+    </div>
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/node_modules/progressbar.js/dist/progressbar.js"></script>
+    <script src="js/main.js"></script>
+    </div>
+    </div>
+  </body>
+</html>
